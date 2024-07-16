@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/all.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="../images/logo.png" alt="" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i id = "bar" class="fa-solid fa-bars"></i>
+        </div>
+    </section>
+    
+    <section id="page-header" class="cart-header">
+        <h2>#AddToCartToday</h2>
+        <p>Your dream purchase is just a click away. Secure your favorites now!</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="../images/product1.jpg" alt=""></td>
+                    <td>Nike Air Zoom Pegasus 36</td>
+                    <td>$100</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$100</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="../images/product2.jpg" alt=""></td>
+                    <td>Adidas Ultraboost 20</td>
+                    <td>$120</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$240</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="../images/product3.jpg" alt=""></td>
+                    <td>Puma Ultraboost 2</td>
+                    <td>$80</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$80</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter your coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$440</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>$50</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$490</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to Checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="column">
+            <img src="../images/logo.png" class="logo">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>562 Wellington Road, Street 32, San Francisco</p>
+            <p><strong>Phone: </strong>+01 2222 365 / (+91) 01 2345 9876</p>
+            <p><strong>Hours: </strong>10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="column">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlists</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="column install">
+            <h4>Install App</h4>
+            <p>From App Store Or Google Play</p>
+            <div class="row">
+                <img src="../images/appStore.jpg" alt="">
+                <img src="../images/googlePlay.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="../images/pay.png" alt="">
+        </div>
+
+        <div class="copyrights">&copy; 2024 - <span>Cara</span>. All rights reserved</div>
+    </footer>
+
+    <script src="../js/"></script>
+</body>
+</html>
